@@ -2,7 +2,9 @@ var express = require('express'),
 app = express(),
 path = require('path');
 
-app.use(express.static(__dirname));
+var cacheTime = 86400000;  
+
+app.use('/public', express.static(__dirname + '/public', { maxAge: cacheTime } ));
 
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
