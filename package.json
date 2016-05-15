@@ -1,0 +1,22 @@
+{
+  "name": "handsome-badger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylestlb/hbb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylestlb/hbb/issues"
+  },
+  "homepage": "https://github.com/kylestlb/hbb#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
