@@ -20,6 +20,10 @@ body {
     padding-left: 0.5em;    
 }
 
+.content {
+    margin-bottom: 10px
+}
+
 .flex-ctr {
     display: flex;
     align-items: center;
@@ -58,7 +62,7 @@ body {
 
 /* About */
 .about-text {
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .about-text p {
@@ -106,4 +110,11 @@ body {
 .logo-large {
     width: 320px;
     height: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .about-text {
+        flex-basis: 75%;        
+    }
+
 }
