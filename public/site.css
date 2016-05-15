@@ -106,13 +106,18 @@ body {
 /* http://paletton.com */
 
 .logo-large {
-    width: 320px;
+    width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 400px) {
+    .logo-large {
+        width: 400px;
+    }
 }
 
 @media screen and (min-width: 600px) {
     .about-text {
         flex-basis: 75%;        
     }
-
 }
