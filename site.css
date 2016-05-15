@@ -1,14 +1,14 @@
 body {
     font-family: 'Slabo 13px', sans-serif;
     background-color: #6a7636;
+    color: #CED9A0;    
 }
 
 .nav {
     top: 0px;
     height: 4em;
-/*106,118,54*/
     color: #e7f4b3;    
-
+    font-weight:bold;
 }
 
 .ctr {
@@ -52,6 +52,25 @@ body {
 
 .menu-link:hover {
     color: #252d05;
+}
+
+
+
+/* About */
+.about-text {
+    flex-basis: 50%;
+}
+
+.about-text p {
+    background-color: #2A3403;    
+    padding: 0.5em;
+    margin: 0;
+}
+
+.shadowed {
+    -webkit-box-shadow: 3px 10px 13px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 10px 13px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 10px 13px -2px rgba(0,0,0,0.75);
 }
 
 /* CSS - Cascading Style Sheet */
